@@ -1,0 +1,40 @@
+.header {
+  background-color: #0D0A09;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px 20px;
+}
+
+.logo-container {
+  font-size: 16px;
+  font-weight: 600;
+  color: #C9AF94;
+  text-decoration: underline;
+  text-decoration-color: #1A1312;
+}
+
+.nav-button {
+  display: flex;
+}
+
+
+.link {
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 20px;
+  transition: 0.20s;
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: #C9AF94;
+}

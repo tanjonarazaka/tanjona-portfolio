@@ -1,0 +1,42 @@
+.about-section,
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #1A1312;
+  padding: 30px;
+  margin: 0;
+}
+
+.about {
+  margin-bottom: 5px;
+}
+
+.job {
+  font-size: 35px;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 150px;
+  box-shadow: 0 0 6px 1px rgba(201, 175, 148, 0.8);
+}
+
+.know-button,
+.send-button {
+  background-color: #C9AF94;
+  color: black;
+  border: none;
+}
+
+.know-button:hover,
+.send-button:hover {
+  background-color: #9a8773;
+}

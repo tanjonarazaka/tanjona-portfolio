@@ -1,0 +1,25 @@
+body {
+  font-family: Poppins, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.footer {
+  background-color: #0D0A09;
+  padding: 30px;
+}
+
+.footer p {
+  text-align: center;
+  color: rgb(196, 196, 196);
+  font-size: 13px;
+}
+
+.footer span {
+  color: #C9AF94;
+  cursor: pointer;
+}

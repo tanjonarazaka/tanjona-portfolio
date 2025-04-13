@@ -1,0 +1,80 @@
+.presentation-section {
+  display: flex;
+  background-color: #0D0A09;
+  padding: 130px 30px 30px 30px;
+  margin: 0;
+}
+
+.hi,
+.about,
+.service-text1 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.me,
+.job,
+.contactme {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.name,
+.job2 {
+  color: #C9AF94;
+}
+
+.description {
+  color: rgb(196, 196, 196);
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.link-container {
+  margin-right: 10px;
+}
+
+.link-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.resume-button,
+.know-button,
+.send-button {
+  width: 150px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #0D0A09;
+  color: white;
+  border: 1px solid #C9AF94;
+  border-radius: 5px;
+  padding: 10px 5px;
+  cursor: pointer;
+  transition: 0.30s;
+}
+
+.resume-button:hover,
+.send-button:hover {
+  background-color: #C9AF94;
+}
+
+.presentation-pic {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-left: 30px;
+}

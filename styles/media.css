@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+  }
+
+  .presentation-section {
+    align-items: center;
+    padding: 100px;
+  }
+
+  .about-section {
+    flex-direction: row;
+    align-items: center;
+    padding: 70px 100px;
+  }
+
+  .picture-container {
+    margin-right: 50px;
+  }
+
+  .picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 1250px;
+  }
+
+
+  .service-section {
+    padding: 70px 100px;
+  }
+  
+  .box-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .icon-box {
+    margin-right: 30px;
+  }
+
+  .contact-section {
+    align-items: center;
+    padding: 70px 100px;
+  }
+
+  .contact-container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .nav-button {
+    margin-top: 10px;
+  }
+
+  .presentation-pic {
+    display: none;
+  }
+}
